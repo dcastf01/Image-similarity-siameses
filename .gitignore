@@ -96,7 +96,9 @@ celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
-
+#data
+data/
+data
 # Environments
 .env
 .venv
@@ -105,11 +107,14 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+envs/
 
 # Spyder project settings
 .spyderproject
 .spyproject
 
+#sonarlint
+.sonarlint/
 # Rope project settings
 .ropeproject
 
@@ -123,3 +128,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/settings.json
